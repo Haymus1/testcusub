@@ -1,0 +1,28 @@
+<style>
+        p{
+            font-variant-numeric: lining-nums;
+            forced-color-adjust:auto;
+            color: brown;
+            background-color:whitesmoke;
+        }
+        body{
+            background-color: hsl(0, 13%, 81%);font-family: monospace;
+            font-size: 20px;
+            background-image:image(./);
+            
+        }
+
+        h1{
+            font-family: serif;
+            font-style:italic;
+            font-size: xx-large;
+        }
+        a {
+            color: rgb(5, 26, 10);
+           
+        }
+
+        
+
+       
+    </style>
