@@ -1,30 +1,10 @@
 <style>
 
-.#extra {
-    font-family: serif;
-    font-style: none;
-    margin-left: auto;
-}
 
-p{
-            font-size: large;
-            forced-color-adjust:auto;
-            color: brown;
-            background-color: none;
-        }
         body{
-            background-color: beige;
+            background-color: #88882f;
             font-size: 20px;
             background-image:image(.responsiv);
-            
-            
-            
-        }
-        a:hover{
-            color: aqua;
-            text-decoration: none;
-            font-family: serif;
-
         }
 
         h1{
@@ -32,19 +12,29 @@ p{
             font-style:italic;
             font-size: xx-large;
         }
+
+        p{
+            font-size: large;
+            forced-color-adjust:auto;
+            color: brown;
+            background-color: none;
+        }
+
+
         a {
             color: rgb(5, 26, 10);
             text-decoration:none;
             font: size large;
             padding: none;
-           
         }
 
-        .#extra{
-            margin-left:auto;
-            color: black;
-            border: solid;
-       }
+        a:hover{
+            color: aqua;
+            text-decoration: none;
+            font-family: serif;
+        }
+
+
 
 @media (min-width:750px){
     .responsiv{
@@ -55,13 +45,29 @@ p{
     }
 }
 
-    ///{
-        color: magenta;
-        margin-right: 300px;
-        text-decoration: double;
-        font-size: small;
+
+#extra {
+    font-family: serif;
+    font-style: none;
+    margin-left: auto;
+}
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: hwb(161 9% 47%);
+    text-align:center;
+    text-decoration: none;
+    
+
     }
-       
-       
+
+ul {
+    list-style: none;
+    -ms-text-underline-position: auto;
+    text-underline-position: none;
+    text-decoration-line: none;
+  }
        
     </style>
